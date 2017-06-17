@@ -1,0 +1,104 @@
+[
+  {
+    "Timestamp": "2015-05-01 00:43:28",
+    "car-id": "20154301124328-262",
+    "car-type": 4,
+    "gate-name": "entrance3"
+  },
+  {
+    "Timestamp": "2015-05-01 01:03:48",
+    "car-id": "20154301124328-262",
+    "car-type": 4,
+    "gate-name": "general-gate1"
+  },
+  {
+    "Timestamp": "2015-05-01 01:06:24",
+    "car-id": "20154301124328-262",
+    "car-type": 4,
+    "gate-name": "ranger-stop2"
+  },
+  {
+    "Timestamp": "2015-05-01 01:09:25",
+    "car-id": "20154301124328-262",
+    "car-type": 4,
+    "gate-name": "ranger-stop0"
+  },
+  {
+    "Timestamp": "2015-05-01 01:12:36",
+    "car-id": "20154301124328-262",
+    "car-type": 4,
+    "gate-name": "general-gate2"
+  },
+  {
+    "Timestamp": "2015-05-01 01:24:02",
+    "car-id": "20154301124328-262",
+    "car-type": 4,
+    "gate-name": "general-gate5"
+  },
+  {
+    "Timestamp": "2015-05-01 01:31:41",
+    "car-id": "20153101013141-937",
+    "car-type": 1,
+    "gate-name": "entrance3"
+  },
+  {
+    "Timestamp": "2015-05-01 01:33:57",
+    "car-id": "20154301124328-262",
+    "car-type": 4,
+    "gate-name": "entrance4"
+  },
+  {
+    "Timestamp": "2015-05-01 01:53:34",
+    "car-id": "20153101013141-937",
+    "car-type": 1,
+    "gate-name": "general-gate1"
+  },
+  {
+    "Timestamp": "2015-05-01 01:56:20",
+    "car-id": "20153101013141-937",
+    "car-type": 1,
+    "gate-name": "ranger-stop2"
+  },
+  {
+    "Timestamp": "2015-05-01 01:59:36",
+    "car-id": "20153101013141-937",
+    "car-type": 1,
+    "gate-name": "ranger-stop0"
+  },
+  {
+    "Timestamp": "2015-05-01 02:03:01",
+    "car-id": "20153101013141-937",
+    "car-type": 1,
+    "gate-name": "general-gate2"
+  },
+  {
+    "Timestamp": "2015-05-01 02:15:17",
+    "car-id": "20153101013141-937",
+    "car-type": 1,
+    "gate-name": "general-gate5"
+  },
+  {
+    "Timestamp": "2015-05-01 02:25:58",
+    "car-id": "20153101013141-937",
+    "car-type": 1,
+    "gate-name": "entrance4"
+  },
+  {
+    "Timestamp": "2015-05-01 02:52:12",
+    "car-id": "20155201025212-846",
+    "car-type": 4,
+    "gate-name": "entrance1"
+  },
+  {
+    "Timestamp": "2015-05-01 02:53:12",
+    "car-id": "20155301025312-741",
+    "car-type": 4,
+    "gate-name": "entrance3"
+  },
+  {
+    "Timestamp": "2015-05-01 03:01:46",
+    "car-id": "20150101030146-497",
+    "car-type": 3,
+    "gate-name": "entrance4"
+  }
+]
