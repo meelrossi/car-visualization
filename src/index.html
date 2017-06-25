@@ -4,12 +4,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Car Visualization</title>
+  <link rel="stylesheet" href="css/style.css" />
   <script src="js/processing.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
   <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
 </head>
 <body>
+  <div class="filters">
+    <label>Date:</label>
+    <input id="date" type="text" />
+    <select id="cartype">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="2P">2P</option>
+    </select>
+    <button type="button" id="filterButton">Filtrar</button>
+  </div>
   <canvas id="canvas1"></canvas>
+  <canvas data-processing-sources="processing/info.pde"></canvas>
 
 </div>
 </body>
