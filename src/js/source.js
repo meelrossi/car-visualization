@@ -78,7 +78,7 @@ d3.csv("data/data.csv", function (data) {
         time = 1;
 
         // refresh window in seconds
-        refreshWindow = 1;
+        refreshWindow = 0.5;
 
         // time window in minutes
         timeWindow = 5;
@@ -153,12 +153,15 @@ d3.csv("data/data.csv", function (data) {
     document.getElementById("filterButton").onclick = function() {
       var dateString = document.getElementById("date").value;
       var carString = document.getElementById("cartype").value;
+      var carIdString = document.getElementById("carId").value;
       filterdata = _.filter(data, (item) => {
         var date1 = new Date(item["Timestamp"]);
         date1.setHours(0,0,0,0);
         var date2 = new Date(Date.parse(dateString));
         if (carString && item["car-type"] != carString) return false;
-        return date1.getTime() == date2.getTime();
+        if (carId && item["car-id"] != carId) return false;
+        if (dateString && date1.getTime() != date2.getTime()) return false;
+        return true;
       });
       if (filterdata.length) {
         time = 0
