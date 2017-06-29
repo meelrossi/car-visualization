@@ -92,6 +92,7 @@ d3.csv("data/data.csv", function (data) {
           time++;
           return;
         }
+        if (!bg) return;
 
         processing.background(bg);
         if (!filterdata.length) {
